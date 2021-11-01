@@ -64,12 +64,10 @@ An app to alert and communicate with other teachers/administrators when there is
 
 ## Wireframes
 ### [BONUS] Digital Wireframes & Mockups
-<img src="https://i.imgur.com/wZpzI1k.png"
- width=600>
+<img src="https://i.imgur.com/XzgjvbG.png" width=600>
 
 ### [BONUS] Interactive Prototype
-<img src="https://i.imgur.com/VmgYrXw.gif
-" title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src="https://i.imgur.com/TQk7hcn.gif" title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## Schema 
 [This section will be completed in Unit 9]

@@ -26,7 +26,7 @@ An app to alert and communicate with other teachers/administrators when there is
 
 * User logs in to access previous alert information and posts new alert. 
 * If the user does not have an account, they need to create an account.
-* User picks alert (hold, secure, evacuate, shelter, and lockdown) to post 
+* User picks alert (hold, secure, evacuate, shelter, and lockdown) to post.
 * User needs to confirm the emergency information, otherwise exit the page. 
 
 **Optional Nice-to-have Stories**

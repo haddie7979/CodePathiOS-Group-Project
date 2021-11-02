@@ -1,3 +1,6 @@
+Original App Design Project - README Template
+===
+
 # School Emergency App
 
 ## Table of Contents

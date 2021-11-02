@@ -71,8 +71,8 @@ An app to alert and communicate with other teachers/administrators when there is
  width=600>
 
 ### [BONUS] Interactive Prototype
-<img src="https://i.imgur.com/TQk7hcn.gif
-" title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src="https://i.imgur.com/TQk7hcn.gif" title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 
 ## Schema 
 [This section will be completed in Unit 9]

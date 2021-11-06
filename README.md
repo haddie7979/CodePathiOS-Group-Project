@@ -79,6 +79,119 @@ An app to alert and communicate with other teachers/administrators when there is
 ### Models
 [Add table of models]
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+- Home Feed Screen
+  - (Read/GET) Query all posts where user is author
+
+    ```
+    // (Read/GET) Query all posts where user is author
+    let query = PFQuery(className:"Post")
+    query.whereKey("author", equalTo: currentUser)
+    query.order(byDescending: "createdAt")
+    query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
+       if let error = error {
+          print(error.localizedDescription)
+       } else if let posts = posts {
+          print("Successfully retrieved \(posts.count) posts.")
+          // TODO: Do something with posts...
+       }
+    }
+    ```
+    
+  - (Create/POST) Create a new alert on a post
+  
+     ```  
+     // (Create/POST) Create a new alert on a post
+    let myAlert = PFObject(className:"Alert")
+    myAlert["content"] = "This is an alert."
+
+    // Add a relation between the Post and Comment
+    myAlert["post"] = myPost
+
+    // This will save both myPost and myAlert
+    myAlert.saveInBackground()
+    
+     ```
+     
+  - (Delete) Delete existing alert
+
+    ```
+    // (Delete) Delete existing alert
+    PFObject.deleteAll(inBackground: objectArray) { (succeeded, error) in
+        if (succeeded) {
+            // The array of objects was successfully deleted.
+        } else {
+            // There was an error. Check the errors localizedDescription.
+        }
+    }
+    ```
+    
+  - (Create/POST) Create a new comment on a post
+     
+     ```
+     // Create the comment on a post
+    let myComment = PFObject(className:"Comment")
+    myComment["content"] = "This is a comment."
+
+    // Add a relation between the Post and Comment
+    myComment["post"] = myPost
+
+    // This will save both myPost and myComment
+    myComment.saveInBackground()
+     ```
+     
+  - (Delete) Delete existing comment
+     
+     ```
+     // (Delete) Delete existing comment
+     PFObject.deleteAll(inBackground: objectArray) { (succeeded, error) in
+        if (succeeded) {
+            // The array of objects was successfully deleted.
+        } else {
+            // There was an error. Check the errors localizedDescription.
+        }
+    }
+     ```
+- Create Post Screen
+  - (Create/POST) Create a new post object
+ 
+     ```
+     // (Create/POST) Create a new post object
+     
+    var user = PFUser.currentUser()
+
+    // Make a new post
+    var post = PFObject(className:"Post")
+    post["title"] = "My New Post"
+    post["body"] = "This is some great content."
+    post["user"] = user
+    post.save()
+     
+     ```
+- Profile Screen
+  - (Read/GET) Query logged in user object
+  
+    ```
+    // (Read/GET) Query logged in user object
+    PFUser.logInWithUsername(inBackground:"myname", password:"mypass") {
+      (user: PFUser?, error: Error?) -> Void in
+      if user != nil {
+        // Do stuff after successful login.
+      } else {
+        // The login failed. Check error to see why.
+      }
+    }
+    ```
+    
+  - (Update/PUT) Update user profile image
+  
+     ```
+     // (Update/PUT) Update user profile image
+     
+     let query = PFQuery(className:"Image") query.getObjectInBackground(withId: "xWMyZEGZ") { (Image: PFObject?, error: Error?) in
+        if let error = error {
+            print(error.localizedDescription)
+        } else if let Image = Image {
+            Image.saveInBackground()
+        }
+    }
+     ```

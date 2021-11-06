@@ -77,7 +77,17 @@ An app to alert and communicate with other teachers/administrators when there is
 ## Schema 
 [This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+| Property | Type | Description|
+| -------- | -------- | -------- |
+|createdAt   |DateTime  | Date when post is created (default field)    |
+updatedAt | DateTime | Date when post was last updated (default field)
+| objectId    | String    | Unique id for the user   |
+| post  | String   | Post by author    |
+| author | Pointer to User | Image author |
+| alert (image)   | file   | Image that user activates   |
+
+
+
 ### Networking
 - Home Feed Screen
   - (Read/GET) Query all posts where user is author

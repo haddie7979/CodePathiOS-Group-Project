@@ -26,6 +26,7 @@ An app to alert and communicate with other teachers/administrators when there is
 
 **Required Must-have Stories**
 
+**NOTE: ALL USER STORIES ARE STILL IN PROGRESS AS OF 11/14/21**
 * User logs in to access previous alert information and posts new alert. 
 * If the user does not have an account, they need to create an account.
 * User picks alert (hold, secure, evacuate, shelter, and lockdown) to post.

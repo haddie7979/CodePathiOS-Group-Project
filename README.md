@@ -208,16 +208,8 @@ updatedAt | DateTime | Date when post was last updated (default field)
         }
     }
      ```
-## Gifs Showing Progress of Unit 10
-### Login Screen
-
-### Sign Up Screen
-
-### Home Screen
+## Gif Showing Progress of Unit 10
 
 
-### Alert Screen
+<iframe src="https://giphy.com/embed/45atXdX31VIMTeRCQ0" width="232" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/45atXdX31VIMTeRCQ0">via GIPHY</a></p>
 
-<iframe src="https://giphy.com/embed/uhl19f9GPrp0hRUitL" width="229" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/uhl19f9GPrp0hRUitL">via GIPHY</a></p>
-
-### Confirmation Screen

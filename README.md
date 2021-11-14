@@ -207,7 +207,7 @@ updatedAt | DateTime | Date when post was last updated (default field)
         }
     }
      ```
-    ## Gifs Showing Progress of Unit 10
+## Gifs Showing Progress of Unit 10
 ### Login Screen
 
 ### Sign Up Screen

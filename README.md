@@ -5,6 +5,8 @@
 1. [Product Spec](#Product-Spec)
 1. [Wireframes](#Wireframes)
 2. [Schema](#Schema)
+3. [Gifs](#Gifs)
+
 
 ## Overview
 ### Description
@@ -205,3 +207,16 @@ updatedAt | DateTime | Date when post was last updated (default field)
         }
     }
      ```
+    ## Gifs Showing Progress of Unit 10
+### Login Screen
+
+### Sign Up Screen
+
+### Home Screen
+
+
+### Alert Screen
+
+<iframe src="https://giphy.com/embed/uhl19f9GPrp0hRUitL" width="229" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/uhl19f9GPrp0hRUitL">via GIPHY</a></p>
+
+### Confirmation Screen

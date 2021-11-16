@@ -5,6 +5,8 @@
 1. [Product Spec](#Product-Spec)
 1. [Wireframes](#Wireframes)
 2. [Schema](#Schema)
+3. [Gifs](#Gifs)
+
 
 ## Overview
 ### Description
@@ -24,6 +26,7 @@ An app to alert and communicate with other teachers/administrators when there is
 
 **Required Must-have Stories**
 
+**NOTE: All user stories are currently in progress as of 11/14/21, and will be completed during Unit 11.**
 * User logs in to access previous alert information and posts new alert. 
 * If the user does not have an account, they need to create an account.
 * User picks alert (hold, secure, evacuate, shelter, and lockdown) to post.
@@ -205,3 +208,8 @@ updatedAt | DateTime | Date when post was last updated (default field)
         }
     }
      ```
+## Gif Showing Progress of Unit 10
+
+
+<iframe src="https://giphy.com/embed/45atXdX31VIMTeRCQ0" width="232" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/45atXdX31VIMTeRCQ0">via GIPHY</a></p>
+

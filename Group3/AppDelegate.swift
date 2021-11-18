@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Parse
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,6 +15,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let parseConfig = ParseClientConfiguration {
+                        $0.applicationId = "8EkCp07ggcTlQ8Xv1dTJfcRVVGx3KfbSN9o2dsjJ" // <- UPDATE
+                        $0.clientKey = "4s7bn6ZQSmvh0D25f6qhaRLELKa67fXA9vOrtX7H" // <- UPDATE
+                        $0.server = "https://parseapi.back4app.com"
+        }
+        Parse.initialize(with: parseConfig)
+        
         return true
     }
 

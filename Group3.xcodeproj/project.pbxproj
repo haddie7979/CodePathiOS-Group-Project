@@ -15,7 +15,7 @@
 		73E5D342273C9BAC00C18FEA /* Group3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E5D341273C9BAC00C18FEA /* Group3Tests.swift */; };
 		73E5D34C273C9BAC00C18FEA /* Group3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E5D34B273C9BAC00C18FEA /* Group3UITests.swift */; };
 		73E5D34E273C9BAC00C18FEA /* Group3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E5D34D273C9BAC00C18FEA /* Group3UITestsLaunchTests.swift */; };
-		77CEE2262740618B00025AD7 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CEE2252740618B00025AD7 /* AlertViewController.swift */; };
+		77CEE2262740618B00025AD7 /* ConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CEE2252740618B00025AD7 /* ConfirmViewController.swift */; };
 		77CEE2292740635D00025AD7 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 77CEE2282740635D00025AD7 /* Algorithms */; };
 		77CEE22B2740924800025AD7 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CEE22A2740924800025AD7 /* PostCell.swift */; };
 		77CEE2312740A4F000025AD7 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CEE22E2740935500025AD7 /* FeedViewController.swift */; };
@@ -62,7 +62,7 @@
 		73E5D347273C9BAC00C18FEA /* Group3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Group3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		73E5D34B273C9BAC00C18FEA /* Group3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group3UITests.swift; sourceTree = "<group>"; };
 		73E5D34D273C9BAC00C18FEA /* Group3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group3UITestsLaunchTests.swift; sourceTree = "<group>"; };
-		77CEE2252740618B00025AD7 /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		77CEE2252740618B00025AD7 /* ConfirmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmViewController.swift; sourceTree = "<group>"; };
 		77CEE22A2740924800025AD7 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		77CEE22E2740935500025AD7 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		9596ABC3BDCCDA752960CA28 /* Pods-Group3-Group3UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Group3-Group3UITests.release.xcconfig"; path = "Target Support Files/Pods-Group3-Group3UITests/Pods-Group3-Group3UITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -145,7 +145,7 @@
 				73E5D333273C9BAC00C18FEA /* Assets.xcassets */,
 				73E5D335273C9BAC00C18FEA /* LaunchScreen.storyboard */,
 				73E5D338273C9BAC00C18FEA /* Info.plist */,
-				77CEE2252740618B00025AD7 /* AlertViewController.swift */,
+				77CEE2252740618B00025AD7 /* ConfirmViewController.swift */,
 				77CEE22A2740924800025AD7 /* PostCell.swift */,
 				BD3592012745E33600F5F6C0 /* LoginScreenViewController.swift */,
 				BD3592032745E3FA00F5F6C0 /* SignUpScreenViewController.swift */,
@@ -434,7 +434,7 @@
 				BD3592042745E3FA00F5F6C0 /* SignUpScreenViewController.swift in Sources */,
 				73E5D32D273C9BAA00C18FEA /* SceneDelegate.swift in Sources */,
 				BD3592022745E33600F5F6C0 /* LoginScreenViewController.swift in Sources */,
-				77CEE2262740618B00025AD7 /* AlertViewController.swift in Sources */,
+				77CEE2262740618B00025AD7 /* ConfirmViewController.swift in Sources */,
 				77CEE2312740A4F000025AD7 /* FeedViewController.swift in Sources */,
 				77CEE22B2740924800025AD7 /* PostCell.swift in Sources */,
 			);

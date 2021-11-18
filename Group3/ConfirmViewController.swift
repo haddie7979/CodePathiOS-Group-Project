@@ -9,7 +9,7 @@ import UIKit
 import AlamofireImage
 import Parse
 
-class AlertViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate{
+class ConfirmViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate{
     
     @IBOutlet weak var commentField: UITextField!
     

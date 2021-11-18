@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Login Screen View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Group3" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="LoginScreenViewController" customModule="Group3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ypi-Ld-PhA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -148,10 +148,10 @@
             </objects>
             <point key="canvasLocation" x="2624.6376811594205" y="-89.0625"/>
         </scene>
-        <!--View Controller-->
+        <!--Sign Up Screen View Controller-->
         <scene sceneID="ULm-on-26J">
             <objects>
-                <viewController id="QL3-w6-8Xf" sceneMemberID="viewController">
+                <viewController id="QL3-w6-8Xf" customClass="SignUpScreenViewController" customModule="Group3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="G5w-PZ-Pnd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -256,10 +256,10 @@
             </objects>
             <point key="canvasLocation" x="1693" y="603"/>
         </scene>
-        <!--Alert View Controller-->
+        <!--Confirm Screen View Controller-->
         <scene sceneID="mHC-vp-yON">
             <objects>
-                <viewController id="Hd7-4K-Z7j" customClass="AlertViewController" customModule="Group3" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Hd7-4K-Z7j" customClass="ConfirmScreenViewController" customModule="Group3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="b9U-Ue-Jxt">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -304,10 +304,10 @@
             </objects>
             <point key="canvasLocation" x="3535" y="603"/>
         </scene>
-        <!--View Controller-->
+        <!--Alert Screen View Controller-->
         <scene sceneID="ZKF-nx-cCy">
             <objects>
-                <viewController id="xEo-sK-dm9" sceneMemberID="viewController">
+                <viewController id="xEo-sK-dm9" customClass="AlertScreenViewController" customModule="Group3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VvY-6p-99Y">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -26,11 +26,11 @@ An app to alert and communicate with other teachers/administrators when there is
 
 **Required Must-have Stories**
 
-**NOTE: All user stories are currently in progress as of 11/14/21, and will be completed during Unit 11.**
-* User logs in to access previous alert information and posts new alert. 
-* If the user does not have an account, they need to create an account.
-* User picks alert (hold, secure, evacuate, shelter, and lockdown) to post.
-* User needs to confirm the emergency information, otherwise exit the page. 
+- [x]  User enters name, email address, and password to create an account if they don't already have one. 
+- [x]  User signs into their account and land on the home screen.
+- [x]  User picks alert (hold, secure, evacuate, shelter, or lockdown) to post. 
+- [x]  User confirms alert and returns to homepage. 
+
 
 **Optional Nice-to-have Stories**
 
@@ -208,6 +208,11 @@ updatedAt | DateTime | Date when post was last updated (default field)
         }
     }
      ```
+     
+## Gif Showing Progress of Unit 11     
+<iframe src="https://giphy.com/embed/pV0CT2wAn5jqj3Cnq6" width="215" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/pV0CT2wAn5jqj3Cnq6">via GIPHY</a></p>     
+     
+
 ## Gif Showing Progress of Unit 10
 
 

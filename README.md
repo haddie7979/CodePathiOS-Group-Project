@@ -26,15 +26,16 @@ An app to alert and communicate with other teachers/administrators when there is
 
 **Required Must-have Stories**
 
+
 - [x]  User enters name, email address, and password to create an account if they don't already have one. 
 - [x]  User signs into their account and land on the home screen.
-- [x]  User picks alert (hold, secure, evacuate, shelter, or lockdown) to post. 
-- [x]  User confirms alert and returns to homepage. 
+- [x]  User creates and confirms an alert (hold, secure, evacuate, shelter, lockdown). 
+- [x]  User accidentally chooses the incorrect alert and uses the “exit” button to return to the previous screen.
 
 
 **Optional Nice-to-have Stories**
 
-* Messaging Screen: chart for users to communicate 
+* Messaging Screen: chart for users to communicate
 
 ### 2. Screen Archetypes
 

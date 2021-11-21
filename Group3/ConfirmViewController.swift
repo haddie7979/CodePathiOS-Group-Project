@@ -21,7 +21,7 @@ class ConfirmViewController: UIViewController, UIImagePickerControllerDelegate, 
     
     @IBAction func onComfirmButton(_ sender: Any) {
         let post = PFObject(className: "Posts")
-                post["caption"] = commentField.text!
+//                post["caption"] = commentField.text!
 //                post["author"] = PFUser.current()!
 
                 post.saveInBackground { (success, error) in

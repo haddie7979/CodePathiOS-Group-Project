@@ -9,7 +9,7 @@ import UIKit
 import AlamofireImage
 import Parse
 
-class ConfirmViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate{
+class AlertViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate{
     
     @IBOutlet weak var commentField: UITextField!
     
@@ -21,7 +21,7 @@ class ConfirmViewController: UIViewController, UIImagePickerControllerDelegate, 
     
     @IBAction func onComfirmButton(_ sender: Any) {
         let post = PFObject(className: "Posts")
-//                post["caption"] = commentField.text!
+                post["caption"] = commentField.text!
 //                post["author"] = PFUser.current()!
 
                 post.saveInBackground { (success, error) in

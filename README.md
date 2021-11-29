@@ -210,7 +210,10 @@ updatedAt | DateTime | Date when post was last updated (default field)
         }
     }
      ```
-     
+## Gif Showing Progress of Unit 12     
+<iframe src="https://giphy.com/embed/sYKuGrcVeGIKiKp81U" width="215" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/sYKuGrcVeGIKiKp81U">via GIPHY</a></p>
+
+
 ## Gif Showing Progress of Unit 11     
 <iframe src="https://giphy.com/embed/pV0CT2wAn5jqj3Cnq6" width="215" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/pV0CT2wAn5jqj3Cnq6">via GIPHY</a></p>     
      

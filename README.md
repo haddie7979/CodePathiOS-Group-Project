@@ -27,15 +27,16 @@ An app to alert and communicate with other teachers/administrators when there is
 **Required Must-have Stories**
 
 
-- [x]  User enters name, email address, and password to create an account if they don't already have one. 
-- [x]  User signs into their account and land on the home screen.
-- [x]  User creates and confirms an alert (hold, secure, evacuate, shelter, lockdown). 
-- [x]  User accidentally chooses the incorrect alert and uses the “exit” button to return to the previous screen.
+- [x]  Network database created for app (back4app). 
+- [x]  Networking component added to sign-up screen. 
+- [x]  Networking component added to login screen. 
+- [x]  Networking component added to alert screen.
 
 
 **Optional Nice-to-have Stories**
 
-* Messaging Screen: chart for users to communicate
+[ ] Messaging Screen: chart for users to communicate
+[ ] Ability to track attendance of students
 
 ### 2. Screen Archetypes
 

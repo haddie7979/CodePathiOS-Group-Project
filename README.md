@@ -35,8 +35,8 @@ An app to alert and communicate with other teachers/administrators when there is
 
 **Optional Nice-to-have Stories**
 
-[ ] Messaging Screen: chart for users to communicate
-[ ] Ability to track attendance of students
+- [ ] Messaging Screen: chart for users to communicate
+- [ ] Ability to track attendance of students
 
 ### 2. Screen Archetypes
 

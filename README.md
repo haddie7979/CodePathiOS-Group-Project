@@ -27,10 +27,10 @@ An app to alert and communicate with other teachers/administrators when there is
 **Required Must-have Stories**
 
 
-- [x]  Network database created for app (back4app). 
-- [x]  Networking component added to sign-up screen. 
-- [x]  Networking component added to login screen. 
-- [x]  Networking component added to alert screen.
+- [x]  Network is set up. 
+- [X]  Network captures registered user.
+- [x]  Each button leads to the correct screen. 
+- [x]  App functions as intended. 
 
 
 **Optional Nice-to-have Stories**
@@ -210,6 +210,10 @@ updatedAt | DateTime | Date when post was last updated (default field)
         }
     }
      ```
+     
+## Gif Showing Progress of Unit 13
+<iframe src="https://giphy.com/embed/Jc8ZWQhD2We36vbkr7" width="480" height="392" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/Jc8ZWQhD2We36vbkr7">via GIPHY</a></p>
+     
 ## Gif Showing Progress of Unit 12     
 <iframe src="https://giphy.com/embed/sYKuGrcVeGIKiKp81U" width="215" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/sYKuGrcVeGIKiKp81U">via GIPHY</a></p>
 

@@ -12,6 +12,7 @@ import Parse
 class ConfirmViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate{
     
     @IBOutlet weak var commentField: UITextField!
+    @IBOutlet weak var typeOfEmergencyField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +21,13 @@ class ConfirmViewController: UIViewController, UIImagePickerControllerDelegate, 
     }
     
     @IBAction func onComfirmButton(_ sender: Any) {
+        let controller = storyboard?.instantiateViewController(withIdentifier: "HomeVC") as! HomeScreenViewController
+        controller.text = typeOfEmergencyField.text
+        controller.modalPresentationStyle = .fullScreen
+        present(controller, animated: true, completion: nil)
+        
+        
+        
         let post = PFObject(className: "Posts")
 //                post["caption"] = commentField.text!
 //                post["author"] = PFUser.current()!

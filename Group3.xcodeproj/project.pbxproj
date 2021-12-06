@@ -24,6 +24,7 @@
 		BD3592022745E33600F5F6C0 /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3592012745E33600F5F6C0 /* LoginScreenViewController.swift */; };
 		BD3592042745E3FA00F5F6C0 /* SignUpScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3592032745E3FA00F5F6C0 /* SignUpScreenViewController.swift */; };
 		BD3592062745E42000F5F6C0 /* AlertScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3592052745E42000F5F6C0 /* AlertScreenViewController.swift */; };
+		BD7F098D275C26E400C91606 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7F098C275C26E400C91606 /* HomeScreenViewController.swift */; };
 		D2DD7510373E3AC3F812A27A /* Pods_Group3Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A02FEFF137C5ED31D4677A7 /* Pods_Group3Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +71,7 @@
 		BD3592012745E33600F5F6C0 /* LoginScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
 		BD3592032745E3FA00F5F6C0 /* SignUpScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreenViewController.swift; sourceTree = "<group>"; };
 		BD3592052745E42000F5F6C0 /* AlertScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertScreenViewController.swift; sourceTree = "<group>"; };
+		BD7F098C275C26E400C91606 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
 		F04B8A5407596A19E27D11FF /* Pods-Group3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Group3.debug.xcconfig"; path = "Target Support Files/Pods-Group3/Pods-Group3.debug.xcconfig"; sourceTree = "<group>"; };
 		F3B19172F595BA434EC9A5D5 /* Pods-Group3-Group3UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Group3-Group3UITests.debug.xcconfig"; path = "Target Support Files/Pods-Group3-Group3UITests/Pods-Group3-Group3UITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -150,6 +152,7 @@
 				BD3592012745E33600F5F6C0 /* LoginScreenViewController.swift */,
 				BD3592032745E3FA00F5F6C0 /* SignUpScreenViewController.swift */,
 				BD3592052745E42000F5F6C0 /* AlertScreenViewController.swift */,
+				BD7F098C275C26E400C91606 /* HomeScreenViewController.swift */,
 			);
 			path = Group3;
 			sourceTree = "<group>";
@@ -434,6 +437,7 @@
 				BD3592042745E3FA00F5F6C0 /* SignUpScreenViewController.swift in Sources */,
 				73E5D32D273C9BAA00C18FEA /* SceneDelegate.swift in Sources */,
 				BD3592022745E33600F5F6C0 /* LoginScreenViewController.swift in Sources */,
+				BD7F098D275C26E400C91606 /* HomeScreenViewController.swift in Sources */,
 				77CEE2262740618B00025AD7 /* ConfirmViewController.swift in Sources */,
 				77CEE2312740A4F000025AD7 /* FeedViewController.swift in Sources */,
 				77CEE22B2740924800025AD7 /* PostCell.swift in Sources */,
@@ -618,6 +622,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Group3/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Group3;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -646,6 +651,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Group3/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Group3;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
